@@ -13,8 +13,38 @@ body {
 }
 
 #search-box {
+  margin-left: 30px;
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-info {
+  margin-left: 30px;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.country-list__flag {
+  margin-right: 20px;
+}
+
+.country-list__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.country-description__name {
+  font-weight: bold;
+}
+
+.country-description__resault {
+  font-weight: 400;
 }
